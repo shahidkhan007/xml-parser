@@ -1,7 +1,6 @@
 import {randomUUID} from "crypto"
 import {readFile} from "fs/promises"
 import { join } from "path";
-import { argv0 } from "process";
 
 
 export class Node {
