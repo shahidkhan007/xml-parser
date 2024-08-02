@@ -333,7 +333,6 @@ const main = async () => {
     const parser = new XMLParser()
     const tree = parser.parse(xmlString)
     const root = tree[0]
-    console.log(root.children[0].children[0].nextSibling)
 }
 
 main()
